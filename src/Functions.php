@@ -1,5 +1,5 @@
 <?php
-class Methods{
+class Functions{
   public function sendChatAction(array $data){
     return $this->curl("sendChatAction",$data);
     /*

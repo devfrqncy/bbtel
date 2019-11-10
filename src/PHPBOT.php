@@ -1,6 +1,6 @@
 <?php
-require_once("Methods.php");
-class PHPBOT extends Methods{
+require_once("Functions.php");
+class PHPBOT extends Functions{
   private $token = "";
 
   public function __construct(string $token) {
