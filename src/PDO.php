@@ -1,7 +1,7 @@
 <?php
 class PDOdb extends output{
     public $bot = false;
-    public $log = "-1001355156291";//inserisci il chat id del gruppo o canale log
+    public $log = "";//inserisci il chat id del gruppo o canale log
     public function connection(string $host,string $username,string $password,string $databaseName,string $bot){
         $this->bot = $bot;
         $dns = "mysql:host=$host;dbname=$databaseName";
