@@ -3,8 +3,11 @@ require_once('src/PHPBOT.php');
 //require_once('src/PDO.php');
 $bot = new PHPBOT('token');
 $update = $bot->Update();
-//$db = new PDOdb();
-//$pdo = $db->connection('localhost','username','password','dbname',true);
+
+/*  DATABASE 
+    $db = new PDOdb();
+    $pdo = $db->connection('localhost','username','password','dbname',true);
+*/
 
 if(!empty($update["callback_query"])){  
     if($bot->data=="button_1"){
