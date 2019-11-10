@@ -12,7 +12,7 @@ git clone https://github.com/devfrqncy/bbtel.git
 
 ## Usage
 
-sets the WebHook editing this File: [setwebhook.php](https://github.com/devfrqncy/bbtel/blob/master/setwebhook.php)
+Sets the WebHook editing this File: [setwebhook.php](https://github.com/devfrqncy/bbtel/blob/master/setwebhook.php)
 ```php
 $WEBHOOK_URL = 'https://url/index.php';  //write url of index.php (must be HTTPS)
 $BOT_TOKEN = '910434493:AAFm0b68g-OaXLCVHgp4L4ASnqVdq_tOrA7';  //write your bot token
