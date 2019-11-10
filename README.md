@@ -25,7 +25,32 @@ If you did everything correctly, you should have this result
 
 Now you can start
 
+Import PHPBOT class
 Edit File: [index.php](https://github.com/devfrqncy/bbtel/blob/master/index.php)
+
+```php
+require_once('src/PHPBOT.php');
+$bot = new PHPBOT('910434493:AAFm0b68g-OaXLCVHgp4L4ASnqVdq_tOrA7'); //write your bot token
+```
+
+Write here the answers of the bot based on the message or callback_query it receives
+
+Example:
+
+```php
+if(!empty($update["message"])){
+  if($bot->text=="/start"){
+//      ....response...
+  }
+}
+else if(!empty($update["callback_query"])){  
+   if($bot->data=="example"){
+//     ....response....
+   }
+}
+
+```
+
 
 
 ## License
