@@ -4,7 +4,7 @@ Simple base for telegram bots in php
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use git to clone repository.
 
 ```bash
 git clone https://github.com/devfrqncy/bbtel.git
