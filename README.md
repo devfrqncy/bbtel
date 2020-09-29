@@ -1,5 +1,5 @@
 # bbtel
-Simple base for telegram bots in php
+Simple basis for Telegram bots in php
 #PHP7 #PDO #Telegram
 
 ## Download or Clone
